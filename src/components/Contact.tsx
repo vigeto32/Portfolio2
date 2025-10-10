@@ -10,7 +10,7 @@ export const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    window.location.href = `mailto:ohmazio36@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(formData.message)}%0A%0AFrom: ${encodeURIComponent(formData.email)}`;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -75,7 +75,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white font-mono mb-1">EMAIL</h3>
-                    <p className="text-gray-400">contact@cyber2099.dev</p>
+                    <p className="text-gray-400">ohmazio36@gmail.com</p>
                   </div>
                 </div>
                 <p className="text-gray-300 leading-relaxed">

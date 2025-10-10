@@ -29,7 +29,7 @@ export const Footer = () => {
             </div>
             <div>
               <div className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 font-mono">
-                CYBER 2099
+                RYAN CHRISTOPHER G. CO
               </div>
               <div className="text-xs text-gray-500 font-mono">
                 Building the future, one line at a time

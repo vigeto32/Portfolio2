@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 export const Hero = () => {
   const [displayText, setDisplayText] = useState('');
-  const fullText = 'WELCOME TO THE FUTURE';
+  const fullText = 'RYAN CHRISTOPHER G. CO';
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -38,6 +38,13 @@ export const Hero = () => {
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
+        <div className="mb-8">
+          <img
+            src="/524308793_1269317001437733_8702633133015114336_n.jpg"
+            alt="Ryan Christopher G. Co"
+            className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto border-4 border-cyan-500 shadow-[0_0_40px_rgba(6,182,212,0.5)] object-cover"
+          />
+        </div>
         <div className="mb-6 flex justify-center gap-4">
           <div className="p-3 bg-cyan-500/10 border border-cyan-500/30 rounded-lg backdrop-blur-sm animate-pulse">
             <Terminal className="w-8 h-8 text-cyan-400" />
