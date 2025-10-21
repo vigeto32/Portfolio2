@@ -92,7 +92,7 @@ export const Hero = () => {
         <div className="text-xl md:text-3xl font-bold mb-4 font-mono">
           <span className="text-cyan-400">{'<'}</span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
-            FULL STACK DEVELOPER
+            FRONT-END DEVELOPER
           </span>
           <span className="text-cyan-400">{' />'}</span>
         </div>
@@ -143,7 +143,7 @@ export const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300" />
             <div className="relative p-6 bg-gray-900/50 backdrop-blur-sm border border-cyan-500/20 rounded-lg group-hover:border-cyan-500/50 transition-all duration-300">
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-                50+
+                2
               </div>
               <div className="text-gray-400 text-sm mt-2 font-mono">PROJECTS</div>
             </div>
@@ -152,7 +152,7 @@ export const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300" />
             <div className="relative p-6 bg-gray-900/50 backdrop-blur-sm border border-blue-500/20 rounded-lg group-hover:border-blue-500/50 transition-all duration-300">
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-                5+
+                2
               </div>
               <div className="text-gray-400 text-sm mt-2 font-mono">YEARS EXP</div>
             </div>
@@ -161,7 +161,7 @@ export const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300" />
             <div className="relative p-6 bg-gray-900/50 backdrop-blur-sm border border-purple-500/20 rounded-lg group-hover:border-purple-500/50 transition-all duration-300">
               <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
-                100+
+                2
               </div>
               <div className="text-gray-400 text-sm mt-2 font-mono">CLIENTS</div>
             </div>

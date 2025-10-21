@@ -75,13 +75,13 @@ export const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
         <div className={`text-center transition-all duration-100 ${glitchActive ? 'glitch' : ''}`}>
           <div className="mb-8 relative">
             <div className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 animate-pulse">
-              RYAN CHRISTOPHER G. CO
+              LOADING
             </div>
             <div className="absolute -top-2 -left-2 text-4xl md:text-6xl font-black text-cyan-500 opacity-20 blur-sm">
-              RYAN CHRISTOPHER G. CO
+              LOADING
             </div>
             <div className="absolute -bottom-2 -right-2 text-4xl md:text-6xl font-black text-purple-500 opacity-20 blur-sm">
-              RYAN CHRISTOPHER G. CO
+              LOADING
             </div>
           </div>
 
