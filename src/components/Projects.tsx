@@ -6,59 +6,26 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: 'NEURAL NETWORK DASHBOARD',
-      description: 'Real-time AI monitoring system with predictive analytics and data visualization',
-      tech: ['React', 'TypeScript', 'TensorFlow.js', 'D3.js'],
-      color: 'from-cyan-500 to-blue-500',
-      bgColor: 'from-cyan-500/10 to-blue-500/10',
+      title: 'Todos App',
+      tech: ['React'],
+      color: 'from-cyan-500 to-red-500',
+      bgColor: 'from-cyan-500/10 to-red-500/10',
       icon: Cpu,
-      gradient: 'bg-gradient-to-br from-cyan-500/20 via-blue-500/20 to-transparent'
+      gradient: 'bg-gradient-to-br from-cyan-500/20 via-red-500/20 to-transparent'
     },
     {
-      title: 'QUANTUM CRYPTO WALLET',
-      description: 'Next-gen cryptocurrency wallet with quantum-resistant encryption',
-      tech: ['Next.js', 'Solidity', 'Web3.js', 'Tailwind'],
+      title: 'Codigo',
+      description: 'A Game using React and Javascript.',
+      tech: ['React.js', 'JavaScript', 'CSS'],
       color: 'from-blue-500 to-purple-500',
       bgColor: 'from-blue-500/10 to-purple-500/10',
       icon: Zap,
       gradient: 'bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-transparent'
     },
-    {
-      title: 'CYBER DEFENSE SYSTEM',
-      description: 'Advanced threat detection and prevention system with real-time monitoring',
-      tech: ['Node.js', 'Python', 'Redis', 'PostgreSQL'],
-      color: 'from-purple-500 to-pink-500',
-      bgColor: 'from-purple-500/10 to-pink-500/10',
-      icon: Layers,
-      gradient: 'bg-gradient-to-br from-purple-500/20 via-pink-500/20 to-transparent'
-    },
-    {
-      title: 'METAVERSE PLATFORM',
-      description: 'Immersive 3D virtual world with social features and digital commerce',
-      tech: ['Three.js', 'WebGL', 'Socket.io', 'MongoDB'],
-      color: 'from-pink-500 to-red-500',
-      bgColor: 'from-pink-500/10 to-red-500/10',
-      icon: Sparkles,
-      gradient: 'bg-gradient-to-br from-pink-500/20 via-red-500/20 to-transparent'
-    },
-    {
-      title: 'AI CONTENT GENERATOR',
-      description: 'Smart content creation tool powered by GPT models and computer vision',
-      tech: ['Python', 'FastAPI', 'OpenAI', 'React'],
-      color: 'from-green-500 to-cyan-500',
-      bgColor: 'from-green-500/10 to-cyan-500/10',
-      icon: Cpu,
-      gradient: 'bg-gradient-to-br from-green-500/20 via-cyan-500/20 to-transparent'
-    },
-    {
-      title: 'BLOCKCHAIN EXPLORER',
-      description: 'Comprehensive blockchain analytics platform with advanced search capabilities',
-      tech: ['Vue.js', 'Ethers.js', 'GraphQL', 'Redis'],
-      color: 'from-yellow-500 to-orange-500',
-      bgColor: 'from-yellow-500/10 to-orange-500/10',
-      icon: Layers,
-      gradient: 'bg-gradient-to-br from-yellow-500/20 via-orange-500/20 to-transparent'
-    }
+  
+   
+   
+    
   ];
 
   return (

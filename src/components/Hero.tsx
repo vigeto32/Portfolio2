@@ -98,8 +98,7 @@ export const Hero = () => {
         </div>
 
         <p className="text-gray-400 text-base md:text-xl max-w-3xl mx-auto mb-12 leading-relaxed">
-          Transforming ideas into powerful digital experiences. Specializing in modern web technologies,
-          clean code architecture, and innovative solutions that push boundaries.
+          Crafting sleek, responsive web experiences with a touch of cyberpunk flair
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
